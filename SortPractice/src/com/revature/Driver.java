@@ -32,7 +32,7 @@ public class Driver {
 		t2 = System.nanoTime();
 		
 		long mergesort = t2 - t1;
-		
+
 		if(Arrays.equals(arr, arr2)) {
 			System.out.println("It took bubblesort algorithm " + bubblesort + " ns to sort");
 			System.out.println("It took mergesort algorithm " + mergesort + " ns to sort");
